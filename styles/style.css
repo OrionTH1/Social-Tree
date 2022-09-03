@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: #FAF7FD;
+}
+
+
+/* Header */
+.profile .profile-info h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0297FE;
+}
+
+.profile .profile-info p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0295fe;
+    margin-bottom: 24px;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #0297FE;
+    padding: 6px;
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.profile .profile-photo{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Section */
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buttons button {
+    width: 326px;
+    height: 49px;
+    background-color: #FAF7FD;
+    border: 2px solid rgba(2, 151, 254, 0.6);
+
+    margin: 0px auto;
+    margin-bottom: 16px;
+    
+    color: #0297FE;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.buttons button:hover{
+    border: 2px solid rgba(2, 151, 254, 1);
+}
+
+
+/* Footer */
+
+.social-media{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    margin: 15px;
+}
+
+.social-media img{
+    width: 24px;
+    height: 24px;
+}
